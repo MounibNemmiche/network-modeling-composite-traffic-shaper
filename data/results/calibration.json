@@ -1,0 +1,68 @@
+{
+  "r": 233730.89138888888,
+  "M": 5250384.086766542,
+  "runs": [
+    {
+      "seed": 2026111300,
+      "packets": 573518,
+      "bytes": 829645688,
+      "complete_on": 160
+    },
+    {
+      "seed": 2026111301,
+      "packets": 559667,
+      "bytes": 809467845,
+      "complete_on": 158
+    },
+    {
+      "seed": 2026111302,
+      "packets": 590030,
+      "bytes": 853514985,
+      "complete_on": 161
+    },
+    {
+      "seed": 2026111303,
+      "packets": 579672,
+      "bytes": 838552583,
+      "complete_on": 159
+    },
+    {
+      "seed": 2026111304,
+      "packets": 594307,
+      "bytes": 859647048,
+      "complete_on": 162
+    },
+    {
+      "seed": 2026111305,
+      "packets": 574575,
+      "bytes": 831049253,
+      "complete_on": 160
+    },
+    {
+      "seed": 2026111306,
+      "packets": 573364,
+      "bytes": 829438558,
+      "complete_on": 160
+    },
+    {
+      "seed": 2026111307,
+      "packets": 587454,
+      "bytes": 849715533,
+      "complete_on": 161
+    },
+    {
+      "seed": 2026111308,
+      "packets": 603856,
+      "bytes": 873560382,
+      "complete_on": 160
+    },
+    {
+      "seed": 2026111309,
+      "packets": 580436,
+      "bytes": 839720215,
+      "complete_on": 161
+    }
+  ],
+  "complete_bursts": 1602,
+  "duration_s": 3600.0
+}

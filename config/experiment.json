@@ -1,0 +1,49 @@
+{
+  "calibration_seeds": [
+    2026111300,
+    2026111309
+  ],
+  "screen_seed": 2026111400,
+  "evaluation_seeds": [
+    2026111500,
+    2026111519
+  ],
+  "confirmation_seeds": [
+    2026111600,
+    2026111609
+  ],
+  "control_seeds": [
+    2026111700,
+    2026111719
+  ],
+  "loss_target": 0.001,
+  "bad_target": 0.05,
+  "deadline_s": 5.0,
+  "rate_grid": [
+    1.1,
+    1.5,
+    2.0
+  ],
+  "mu_grid": [
+    2,
+    4,
+    8
+  ],
+  "bucket_grid": [
+    0,
+    0.25,
+    1
+  ],
+  "memory_grid": [
+    0.5,
+    1,
+    2
+  ],
+  "split_grid": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "refinement_max": 32,
+  "selection": "interval-supported if available, otherwise observed; then mu,total memory,rho,b,Bi"
+}

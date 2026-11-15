@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+figure/
+.validation/
+*.pdf
+*.tex
+*.aux
+*.log
+*.zip
+.env
+.env.*

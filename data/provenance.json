@@ -1,0 +1,29 @@
+{
+  "source_repository": "https://github.com/MounibNemmiche/network-modeling-youtube-source-model",
+  "source_path": "data/processed/packets.csv",
+  "source_sha256": "2e8d9fde41ea6624ef01ca1fe72000598236cadc59926a0178aa9855573a8209",
+  "fitting_sha256": "fe5504af4adc632c67be7449f3b0f2e89bb767aacc4f5df84cde924032cb812f",
+  "fitting_interval_capture_s": [
+    60,
+    270
+  ],
+  "interval_convention": "left-closed, right-open",
+  "fitting_packets": 32768,
+  "fitting_ip_bytes": 47399900,
+  "time_origin": "Seconds since HW1 capture start; fit subtracts 60 seconds.",
+  "selection": "Original HW1 columns and row order retained; only capture time [60,270) rows included.",
+  "workload": "Original IP length including headers; retransmissions retained, not application goodput.",
+  "source_limitations": [
+    "One receiver-observed prerecorded YouTube session.",
+    "Nine complete fitted ON-OFF cycles; independent empirical draws preserve marginals, not measured dependence.",
+    "Synthetic open-loop workload has no TCP or player feedback."
+  ],
+  "assistance": {
+    "tool": "ChatGPT AI assistance",
+    "date": "2026-11-15",
+    "scope": "HW2 planning, model reuse, source and shaper implementation, experiment and plotting code, analysis, LaTeX formatting and report text; actual scope recorded transparently."
+  },
+  "source_sha256_scope": "Original local HW1 CSV bytes before Git newline canonicalization.",
+  "fitting_serialization": "UTF-8 CSV with LF newlines; original columns, numeric strings and row order retained.",
+  "source_repository_csv_sha256": "2e8d9fde41ea6624ef01ca1fe72000598236cadc59926a0178aa9855573a8209"
+}

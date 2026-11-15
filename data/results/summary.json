@@ -1,0 +1,187 @@
+{
+  "selected": "R001",
+  "selection_evidence": "nominal intervals",
+  "parameters": {
+    "rho": 350596.3370833333,
+    "mu": 1308892.9917777777,
+    "b": 5250385,
+    "Bi": 5250384,
+    "Bo": 5250385
+  },
+  "calibration": {
+    "r": 233730.89138888888,
+    "M": 5250384.086766542,
+    "runs": [
+      {
+        "seed": 2026111300,
+        "packets": 573518,
+        "bytes": 829645688,
+        "complete_on": 160
+      },
+      {
+        "seed": 2026111301,
+        "packets": 559667,
+        "bytes": 809467845,
+        "complete_on": 158
+      },
+      {
+        "seed": 2026111302,
+        "packets": 590030,
+        "bytes": 853514985,
+        "complete_on": 161
+      },
+      {
+        "seed": 2026111303,
+        "packets": 579672,
+        "bytes": 838552583,
+        "complete_on": 159
+      },
+      {
+        "seed": 2026111304,
+        "packets": 594307,
+        "bytes": 859647048,
+        "complete_on": 162
+      },
+      {
+        "seed": 2026111305,
+        "packets": 574575,
+        "bytes": 831049253,
+        "complete_on": 160
+      },
+      {
+        "seed": 2026111306,
+        "packets": 573364,
+        "bytes": 829438558,
+        "complete_on": 160
+      },
+      {
+        "seed": 2026111307,
+        "packets": 587454,
+        "bytes": 849715533,
+        "complete_on": 161
+      },
+      {
+        "seed": 2026111308,
+        "packets": 603856,
+        "bytes": 873560382,
+        "complete_on": 160
+      },
+      {
+        "seed": 2026111309,
+        "packets": 580436,
+        "bytes": 839720215,
+        "complete_on": 161
+      }
+    ],
+    "complete_bursts": 1602,
+    "duration_s": 3600.0
+  },
+  "screening_configurations": 251,
+  "shortlist": [
+    "R001",
+    "R005",
+    "R006",
+    "R007",
+    "C241",
+    "R002",
+    "R003",
+    "C160"
+  ],
+  "neighbor": "R000",
+  "confirmation_passed": true,
+  "diagnostics": {
+    "isolated_lbf": {
+      "packets": 143041,
+      "delivered": 134943,
+      "input_drops": 0,
+      "output_drops": 8098,
+      "bytes_in": 206944037,
+      "bytes_out": 195188308,
+      "duration_s": 900.0,
+      "drain_s": 2.4577727820078508,
+      "offered_Bps": 229937.8188888889,
+      "throughput_Bps": 216285.25332359067,
+      "loss": 0.056613138890248216,
+      "byte_loss": 0.05680631909195818,
+      "mean_delay": 1.7335956802080599,
+      "p95_delay": 3.566129029821118,
+      "max_qi": 0,
+      "max_qo": 5250384,
+      "bad_1": 0.7182695870414776,
+      "bad_5": 0.05661313889024825,
+      "bad_10": 0.05661313889024825
+    },
+    "isolated_tbf": {
+      "packets": 143041,
+      "delivered": 143041,
+      "input_drops": 0,
+      "output_drops": 0,
+      "bytes_in": 206944037,
+      "bytes_out": 206944037,
+      "duration_s": 900.0,
+      "drain_s": 0.0,
+      "offered_Bps": 229937.8188888889,
+      "throughput_Bps": 229937.8188888889,
+      "loss": 0.0,
+      "byte_loss": 0.0,
+      "mean_delay": 0.32341262525024544,
+      "p95_delay": 2.2542234495032574,
+      "max_qi": 3862797,
+      "max_qo": 46464,
+      "bad_1": 0.06459686383624276,
+      "bad_5": 0.028208695409008607,
+      "bad_10": 0.002621625967379982
+    },
+    "composite": {
+      "packets": 143041,
+      "delivered": 143041,
+      "input_drops": 0,
+      "output_drops": 0,
+      "bytes_in": 206944037,
+      "bytes_out": 206944037,
+      "duration_s": 900.0,
+      "drain_s": 2.4577727820078508,
+      "offered_Bps": 229937.8188888889,
+      "throughput_Bps": 229311.60131964216,
+      "loss": 0.0,
+      "byte_loss": 0.0,
+      "mean_delay": 1.9790928739872844,
+      "p95_delay": 4.283569109093321,
+      "max_qi": 3862797,
+      "max_qo": 4926055,
+      "bad_1": 0.7182695870414776,
+      "bad_5": 0.028271614432225724,
+      "bad_10": 0.002628616969959662
+    }
+  },
+  "trace_seed": 2026111500,
+  "trace_duration_s": 3600.0,
+  "trace_metrics": {
+    "packets": 548446,
+    "delivered": 548446,
+    "input_drops": 0,
+    "output_drops": 0,
+    "bytes_in": 793322282,
+    "bytes_out": 793322282,
+    "duration_s": 3600.0,
+    "drain_s": 0.0,
+    "offered_Bps": 220367.30055555556,
+    "throughput_Bps": 220367.30055555556,
+    "loss": 0.0,
+    "byte_loss": 0.0,
+    "mean_delay": 1.8411458142157389,
+    "p95_delay": 3.8804479651611814,
+    "max_qi": 4015270,
+    "max_qo": 4930215,
+    "bad_1": 0.7075500596230075,
+    "bad_5": 0.015277711935176845,
+    "bad_10": 0.0009262534506587704
+  },
+  "trace_sha256": {
+    "Input_Trace_File.txt": "c2cc95fc817dc5a680e9f37e130e50101ed53674bb968c1fcce67fc43827d516",
+    "Output_Trace_File.txt": "96c2d878a809ef60c1b8287d6e9116d4a13213fcf779fdcc645a00a78fd764d0"
+  },
+  "python": "3.12.10",
+  "elapsed_this_invocation_s": 820.6784393996932,
+  "metrics_note": "Loss computed by integer lost count divided by generated count; numerically refreshed from retained counts without rerunning simulation; feasibility and selected ID unchanged."
+}
